@@ -8,12 +8,12 @@ import lombok.Setter;
 @Setter
 public class JokeServiceImpl implements JokeService{
 
-    public ChuckNorrisQuotes joke;
+    public ChuckNorrisQuotes chuckNorrisQuotes;
 
 
 
     public String getJoke(){
-        return joke.getRandomQuote();
+        return chuckNorrisQuotes.getRandomQuote();
     }
 
 }
