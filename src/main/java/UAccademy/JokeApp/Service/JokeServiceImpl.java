@@ -1,11 +1,9 @@
 package UAccademy.JokeApp.Service;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
-import lombok.Getter;
-import lombok.Setter;
+import org.springframework.stereotype.Service;
 
-@Getter
-@Setter
+@Service
 public class JokeServiceImpl implements JokeService{
 
     public ChuckNorrisQuotes chuckNorrisQuotes;
